@@ -1,54 +1,63 @@
-# Hi there, I'm Zain! 👋
+# Zainul Nazir 👋
 
-Welcome to my GitHub profile! I'm a **Biomedical Engineer**, passionate about **technology, innovation, and making a difference in the world**. From building AI-powered systems to designing futuristic web apps, I'm all about pushing the boundaries of what's possible. 
+> "Chasing peaks and valleys, one line of code at a time." 🚀
 
-## 🚀 About Me
-
-- 🎓 Final-year Biomedical Engineering student.
-- 🧠 Fascinated by **AI, machine learning**, and **biomedical devices**.
-- 🌌 Deeply curious about **mathematics**, **physics**, and understanding the **universe**.
-- 💻 Proficient in **Python**, **MATLAB**, **JavaScript**, and dabbling in **Kotlin**.
-- 🌍 Aiming to create **sustainable, impactful technologies** to make the world a better place.
-
-## 💡 What I'm Working On
-
-- **BB-8 Inspired Robot:** A smart assistant robot capable of surveillance, IoT connectivity, and more.
-- **Vein Finder Device:** Leveraging IR technology to improve venipuncture efficiency.
-- **Dynamic Web Development:** Creating functional, material-designed web apps with a focus on user experience.
-
-## 🌟 Skills
-
-### Programming Languages
-- **Python**
-- **JavaScript**
-- **MATLAB**
-- **C**
-- **Kotlin**
-
-### Tools & Technologies
-- **Raspberry Pi**
-- **MongoDB**
-- **React.js**
-- **Node.js**
-- **Material UI**
-
-### Interests
-- AI and Machine Learning 🤖
-- Biomedical Imaging 🩺
-- Web Development 🌐
-- Hardware Prototyping 🔧
-
-## 📈 GitHub Stats
-![Zain's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zainulnazir&show_icons=true&theme=radical)
-
-## 📫 Connect With Me
-
-- **Instagram:** [@zainulnazir](https://instagram.com/zainulnazir)
-- **LinkedIn:** [Zain Biomedical Engineer](https://linkedin.com/in/zainulnazir)
-- **Twitter:** [@zainulnazir](https://twitter.com/zainulnazir)
+I’m a **Biomedical Engineer** and **Tech Innovator** dedicated to building impactful solutions at the intersection of hardware, software, and AI. From vein-finding devices to intelligent robots, I combine scientific rigor with creative engineering.
 
 ---
 
-✨ *"Technology is a tool for creating solutions that inspire change and drive progress."* ✨
+## 🎯 About Me
 
-Feel free to explore my repositories, contribute, or just say hi! 😊
+- 🎓 Final-year **Biomedical Engineering** student.
+- 🤖 Passionate about **AI & Machine Learning**: developing models for medical imaging and predictive analytics.
+- 💻 Skilled in **Python**, **JavaScript**, **MATLAB**, **C**, and **Kotlin**.
+- 🌐 Experienced in full-stack development: **React**, **Node.js**, **Docker**, and **Material UI**.
+- 🔧 Hardware prototyping: **Raspberry Pi**, **IR/NoIR cameras**, **servo motors**, and custom electronics.
+- 🌌 Enthusiast of mathematics, physics, and exploring complex systems.
+
+---
+
+## 🚀 Highlight Project
+
+### [vein-finder](https://github.com/zainulnazir/vein-finder)  
+An IR-based vein finder built with Raspberry Pi and NoIR camera, featuring a real-time custom UI. Designed to improve venipuncture accuracy and patient comfort.  
+_Last updated: February 18, 2025_
+
+**Quickstart**:
+```bash
+git clone https://github.com/zainulnazir/vein-finder.git
+cd vein-finder
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+## 🛠️ Skills & Tools
+
+| Programming     | Frameworks & Libraries | Hardware & IoT      |
+|-----------------|------------------------|---------------------|
+| Python          | React.js               | Raspberry Pi        |
+| JavaScript      | Node.js                | IR/NoIR Cameras     |
+| MATLAB          | Material UI            | Servo Motors        |
+| C               | Docker                 | Laser Modules       |
+| Kotlin          | TensorFlow / PyTorch   | Custom Electronics  |
+
+---
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=zainulnazir&show_icons=true&theme=radical&count_private=true)
+
+---
+
+## 📫 Connect
+
+- 📸 **Instagram:** [@zainulnazir](https://instagram.com/zainulnazir)  
+- 💼 **LinkedIn:** [zainulnazir](https://linkedin.com/in/zainulnazir)  
+- 🐦 **X (Twitter):** [@zainulnazir](https://twitter.com/zainulnazir)  
+- 📧 **Email:** zaynulnazir@gmail.com / haditbutt7@gmail.com
+
+---
+
+✨ _"Turning data into discoveries, one experiment at a time."_ ✨

@@ -39,13 +39,13 @@ Welcome to my GitHub profile! I'm a **Biomedical Engineer**, passionate about **
 - Hardware Prototyping 🔧
 
 ## 📈 GitHub Stats
-![Zain's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Zain's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zainulnazir&show_icons=true&theme=radical)
 
 ## 📫 Connect With Me
 
-- **Instagram:** [@KeashurCoder](https://instagram.com/KeashurCoder)
-- **LinkedIn:** [Zain Biomedical Engineer](https://linkedin.com/in/yourlinkedinprofile)
-- **Twitter:** [@KeashurCoder](https://twitter.com/KeashurCoder)
+- **Instagram:** [@zainulnazir](https://instagram.com/zainulnazir)
+- **LinkedIn:** [Zain Biomedical Engineer](https://linkedin.com/in/zainulnazir)
+- **Twitter:** [@zainulnazir](https://twitter.com/zainulnazir)
 
 ---
 

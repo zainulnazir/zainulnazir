@@ -1,4 +1,4 @@
-# Zainul Nazir 👋
+# Zain Ul Nazir 👋
 
 > "Chasing peaks and valleys, one line of code at a time." 🚀
 

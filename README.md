@@ -1,63 +1,87 @@
-# Zain Ul Nazir 👋
+# Zain Ul Nazir
 
-> "Chasing peaks and valleys, one line of code at a time." 🚀
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1200&color=F5F5F7&center=true&vCenter=true&width=900&lines=Biomedical+Engineer;Medical+Device+Builder;Software+Developer+for+Healthcare;Clinical+Engineering+%7C+Automation+%7C+Interfaces" alt="Typing intro" />
+</p>
 
-I’m a **Biomedical Engineer** and **Tech Innovator** dedicated to building impactful solutions at the intersection of hardware, software, and AI. From vein-finding devices to intelligent robots, I combine scientific rigor with creative engineering.
+<p align="center">
+  I build at the intersection of <strong>biomedical engineering</strong>, <strong>medical devices</strong>, and <strong>software systems</strong>.
+</p>
 
----
+<p align="center">
+  <a href="mailto:zaynulnazir@gmail.com"><img src="https://img.shields.io/badge/Email-zaynulnazir%40gmail.com-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/zainulnazir"><img src="https://img.shields.io/badge/LinkedIn-zainulnazir-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/zainulnazir"><img src="https://img.shields.io/badge/GitHub-zainulnazir-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-## 🎯 About Me
+## About
 
-- 🎓 Final-year **Biomedical Engineering** student.
-- 🤖 Passionate about **AI & Machine Learning**: developing models for medical imaging and predictive analytics.
-- 💻 Skilled in **Python**, **JavaScript**, **MATLAB**, **C**, and **Kotlin**.
-- 🌐 Experienced in full-stack development: **React**, **Node.js**, **Docker**, and **Material UI**.
-- 🔧 Hardware prototyping: **Raspberry Pi**, **IR/NoIR cameras**, **servo motors**, and custom electronics.
-- 🌌 Enthusiast of mathematics, physics, and exploring complex systems.
+I am a biomedical engineering graduate focused on building systems that are technically rigorous, clinically useful, and thoughtfully designed.
 
----
+My work spans:
 
-## 🚀 Highlight Project
+- Medical device prototyping and biomedical product concepts
+- Clinical engineering and equipment-focused problem solving
+- Healthcare automation and AI-assisted workflows
+- Frontend and full-stack development with modern web tools
+- Technical experiments that connect hardware, data, interfaces, and healthcare use cases
 
-### [vein-finder](https://github.com/zainulnazir/vein-finder)  
-An IR-based vein finder built with Raspberry Pi and NoIR camera, featuring a real-time custom UI. Designed to improve venipuncture accuracy and patient comfort.  
-_Last updated: February 18, 2025_
+## Selected Work
 
-**Quickstart**:
-```bash
-git clone https://github.com/zainulnazir/vein-finder.git
-cd vein-finder
-pip install -r requirements.txt
-python app.py
-```
+| Project | Summary | Links |
+| --- | --- | --- |
+| **NIR Vein Finder** | A low-cost near-infrared vein visualization prototype built with Raspberry Pi and NoIR camera hardware, paired with a real-time interface for practical vein detection workflows. | [Repo](https://github.com/zainulnazir/vein-finder) · [Paper](./public/Research_NIR_Vein_Finder.pdf) |
+| **CuraLytica** | A healthcare AI concept exploring disease diagnosis support through medical imaging analysis and machine learning workflows. | [Repo](https://github.com/zainulnazir/CuraLytica) |
+| **Biomechanics / CAD Exploration** | Modeling-oriented biomedical exploration, including a public SimScale project for a lumbar spine implant concept. | [SimScale Project](https://www.simscale.com/projects/zainulnazir/lumber_spine/) |
 
----
+## Engineering Interests
 
-## 🛠️ Skills & Tools
+- Clinical and biomedical systems
+- Device design, prototyping, and validation
+- Healthcare-focused software products
+- Automation workflows and practical AI tooling
+- Human-centered interfaces for technical applications
 
-| Programming     | Frameworks & Libraries | Hardware & IoT      |
-|-----------------|------------------------|---------------------|
-| Python          | React.js               | Raspberry Pi        |
-| JavaScript      | Node.js                | IR/NoIR Cameras     |
-| MATLAB          | Material UI            | Servo Motors        |
-| C               | Docker                 | Laser Modules       |
-| Kotlin          | TensorFlow / PyTorch   | Custom Electronics  |
+## Stack
 
----
+<p>
+  <img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/n8n-111111?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/MATLAB-111111?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB" />
+  <img src="https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=A8B9CC" alt="C" />
+  <img src="https://img.shields.io/badge/SolidWorks-111111?style=flat-square&logoColor=white" alt="SolidWorks" />
+</p>
 
-## 📈 GitHub Stats
+## Current Focus
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=zainulnazir&show_icons=true&theme=radical&count_private=true)
+- Deepening software engineering depth alongside biomedical engineering work
+- Building more polished, documented, recruiter-friendly project case studies
+- Creating healthcare-oriented tools that show practical real-world value
 
----
+## GitHub Snapshot
 
-## 📫 Connect
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=zainulnazir&show_icons=true&theme=transparent&hide_border=true&title_color=f5f5f7&text_color=cccccc&icon_color=06b6d4" alt="GitHub stats" />
+</p>
 
-- 📸 **Instagram:** [@zainulnazir](https://instagram.com/zainulnazir)  
-- 💼 **LinkedIn:** [zainulnazir](https://linkedin.com/in/zainulnazir)  
-- 🐦 **X (Twitter):** [@zainulnazir](https://twitter.com/zainulnazir)  
-- 📧 **Email:** zaynulnazir@gmail.com / haditbutt7@gmail.com
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zainulnazir&layout=compact&theme=transparent&hide_border=true&title_color=f5f5f7&text_color=cccccc" alt="Top languages" />
+</p>
 
----
+## Open To
 
-✨ _"Turning data into discoveries, one experiment at a time."_ ✨
+- Biomedical engineering roles
+- Clinical engineering roles
+- Medical device development
+- Healthcare technology and digital health
+- Software, automation, and technical product roles connected to real-world systems
+
+## Contact
+
+- Email: [zaynulnazir@gmail.com](mailto:zaynulnazir@gmail.com)
+- LinkedIn: [linkedin.com/in/zainulnazir](https://linkedin.com/in/zainulnazir)

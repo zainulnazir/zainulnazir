@@ -23,8 +23,8 @@ const projects = [
   },
   {
     title: 'Lumbar Spine Implant Concept',
-    description: 'A collaborative biomechanics project for a lumbar spine implant concept, where I handled most of the CAD modeling and technical exploration involved in shaping the design and evaluating it as a biomedical engineering concept.',
-    tags: ['Biomechanics', 'CAD/CAE', 'SimScale'],
+    description: 'A collaborative lumbar disc implant concept in which I handled most of the CAD modeling and technical exploration, building the core vertebral and endplate geometry and preparing the design for biomechanics-focused evaluation in SimScale.',
+    tags: ['Biomechanics', 'CAD Modeling', 'SimScale'],
     github: '#',
     demo: 'https://www.simscale.com/projects/zainulnazir/lumber_spine/',
     color: 'var(--accent-purple)',

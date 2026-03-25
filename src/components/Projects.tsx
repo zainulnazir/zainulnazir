@@ -21,6 +21,14 @@ const projects = [
     demo: '#',
     color: 'var(--accent-teal)',
   },
+  {
+    title: 'Lumbar Spine Implant Concept',
+    description: 'A collaborative biomechanics project for a lumbar spine implant concept, where I handled most of the CAD modeling and technical exploration involved in shaping the design and evaluating it as a biomedical engineering concept.',
+    tags: ['Biomechanics', 'CAD/CAE', 'SimScale'],
+    github: '#',
+    demo: 'https://www.simscale.com/projects/zainulnazir/lumber_spine/',
+    color: 'var(--accent-purple)',
+  },
 ];
 
 export default function Projects() {
@@ -50,9 +58,11 @@ export default function Projects() {
               <div className={styles.cardHeader}>
                 <h3 className={styles.cardTitle}>{project.title}</h3>
                 <div className={styles.links}>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
-                    <FaGithub size={20} />
-                  </a>
+                  {project.github !== '#' && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+                      <FaGithub size={20} />
+                    </a>
+                  )}
                   {project.demo !== '#' && (
                     <a href={project.demo} target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
                       <FaExternalLinkAlt size={20} />

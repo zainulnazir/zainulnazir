@@ -30,7 +30,7 @@ My work spans:
 
 | Project | Summary | Links |
 | --- | --- | --- |
-| **NIR Vein Finder** | A low-cost near-infrared vein visualization prototype built with Raspberry Pi and NoIR camera hardware, paired with a real-time interface for practical vein detection workflows. | [Repo](https://github.com/zainulnazir/vein-finder) · [Paper](./public/Research_NIR_Vein_Finder.pdf) |
+| **NIR Vein Finder** | A low-cost near-infrared vein visualization prototype built with Raspberry Pi and NoIR camera hardware, paired with a real-time interface for practical vein detection workflows. | [Repo](https://github.com/zainulnazir/vein-finder) · [Paper](https://pub-0951765016044c0d8d09ae3469298c27.r2.dev/research/Research%20NIR%20Vein-Finder.pdf) |
 | **CuraLytica** | A healthcare AI concept exploring disease diagnosis support through medical imaging analysis and machine learning workflows. | [Repo](https://github.com/zainulnazir/CuraLytica) |
 | **Lumbar Spine Implant Concept** | A collaborative lumbar disc implant concept where I handled most of the CAD modeling and technical exploration, including vertebral and endplate geometry preparation for biomechanics-focused evaluation in SimScale. | [SimScale Project](https://www.simscale.com/projects/zainulnazir/lumber_spine/) |
 

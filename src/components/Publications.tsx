@@ -11,7 +11,7 @@ const publications = [
     status: 'Submitted for Publication',
     description: 'A study centered on the design and evaluation of an accessible NIR-based vein visualization system, combining open hardware, real-time processing, and practical medical-device thinking to explore lower-cost vein-assistance technology.',
     date: '2025',
-    link: 'https://raw.githubusercontent.com/zainulnazir/zainulnazir/main/public/Research_NIR_Vein_Finder.pdf',
+    link: 'https://pub-0951765016044c0d8d09ae3469298c27.r2.dev/research/Research%20NIR%20Vein-Finder.pdf',
   },
 ];
 

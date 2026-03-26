@@ -74,6 +74,33 @@
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 1023px) {
+  .hero {
+    min-height: 100svh;
+    padding: 7rem 0 4rem;
+  }
+
+  .canvasContainer {
+    opacity: 0.3;
+  }
+
+  .content {
+    max-width: 44rem;
+  }
+
+  .title {
+    font-size: clamp(3rem, 10vw, 5rem);
+  }
+
+  .subtitle {
+    font-size: clamp(1.15rem, 3.8vw, 1.85rem);
+  }
+
+  .description {
+    max-width: 34rem;
+  }
+}
+
 @media (max-width: 767px) {
   .hero {
     min-height: 100svh;
@@ -110,5 +137,23 @@
     width: 100%;
     max-width: 18rem;
     padding: 0.95rem 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero {
+    padding: 6.5rem 0 2.5rem;
+  }
+
+  .title {
+    font-size: clamp(2.45rem, 15vw, 3.8rem);
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .primaryButton {
+    max-width: none;
   }
 }

@@ -31,9 +31,8 @@
 }
 
 .links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 2.5rem;
 }
 
@@ -56,6 +55,22 @@
   font-weight: 500;
 }
 
+@media (max-width: 1023px) {
+  .contact {
+    padding: 8rem 0;
+  }
+
+  .text {
+    font-size: 1.12rem;
+    margin-bottom: 3rem;
+  }
+
+  .links {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+}
+
 @media (max-width: 767px) {
   .contact {
     padding: 7rem 0;
@@ -71,10 +86,21 @@
   }
 
   .links {
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
   }
 
   .link {
-    min-width: 5rem;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .links {
+    gap: 1rem;
+  }
+
+  .link span {
+    font-size: 0.82rem;
   }
 }

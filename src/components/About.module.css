@@ -14,25 +14,75 @@
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 700;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--text-main) 0%, rgba(255,255,255,0.4) 100%);
+  background: linear-gradient(135deg, var(--text-main) 0%, rgba(255, 255, 255, 0.4) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+.feature {
+  position: relative;
+  min-height: 40rem;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 24%, rgba(6, 182, 212, 0.16), transparent 32%),
+    radial-gradient(circle at 78% 18%, rgba(192, 132, 252, 0.12), transparent 28%),
+    var(--glass-bg);
 }
 
-.card {
-  padding: 3rem;
+.portraitLayer {
+  position: absolute;
+  inset: 0;
 }
 
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
+.portrait {
+  object-fit: contain;
+  object-position: right bottom;
+  filter: drop-shadow(0 20px 56px rgba(0, 0, 0, 0.42));
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(132% 96% at 46% 104%, rgba(10, 14, 18, 0.98) 0%, rgba(10, 14, 18, 0.84) 26%, rgba(10, 14, 18, 0.5) 48%, rgba(10, 14, 18, 0.16) 72%, rgba(10, 14, 18, 0) 100%),
+    linear-gradient(180deg, rgba(10, 14, 18, 0) 0%, rgba(10, 14, 18, 0.02) 40%, rgba(10, 14, 18, 0.12) 50%, rgba(10, 14, 18, 0.3) 60%, rgba(10, 14, 18, 0.58) 72%, rgba(10, 14, 18, 0.82) 84%, rgba(10, 14, 18, 0.95) 100%);
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 40rem;
+  max-width: 42rem;
+  padding: 3.25rem 3.25rem 2.2rem;
+}
+
+.profileText {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: var(--text-main);
+  margin-bottom: 1.25rem;
+}
+
+.supportingText {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: var(--text-main);
+}
+
+@media (max-width: 1023px) {
+  .feature {
+    min-height: 36rem;
+  }
+
+  .content {
+    min-height: 36rem;
+    max-width: 34rem;
+    padding: 2.5rem 2.5rem 1.9rem;
   }
 }
 
@@ -45,20 +95,52 @@
     margin-bottom: 3rem;
   }
 
-  .card {
-    padding: 2rem;
+  .feature {
+    min-height: 49rem;
+  }
+
+  .portrait {
+    object-position: center top;
+  }
+
+  .overlay {
+    background:
+      radial-gradient(140% 86% at 50% 108%, rgba(10, 14, 18, 1) 0%, rgba(10, 14, 18, 0.96) 30%, rgba(10, 14, 18, 0.82) 46%, rgba(10, 14, 18, 0.52) 62%, rgba(10, 14, 18, 0.18) 82%, rgba(10, 14, 18, 0) 100%),
+      linear-gradient(180deg, rgba(10, 14, 18, 0) 0%, rgba(10, 14, 18, 0.02) 34%, rgba(10, 14, 18, 0.08) 42%, rgba(10, 14, 18, 0.18) 48%, rgba(10, 14, 18, 0.34) 54%, rgba(10, 14, 18, 0.58) 62%, rgba(10, 14, 18, 0.82) 72%, rgba(10, 14, 18, 0.94) 84%, rgba(10, 14, 18, 0.99) 100%);
+  }
+
+  .content {
+    min-height: 49rem;
+    padding: 30rem 1.85rem 1rem;
+    justify-content: flex-end;
+  }
+
+  .profileText {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .supportingText {
+    font-size: 0.98rem;
+    line-height: 1.72;
   }
 }
 
-.cardTitle {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-  color: var(--text-main);
-}
+@media (max-width: 420px) {
+  .feature {
+    min-height: 46rem;
+  }
 
-.text {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: var(--text-muted);
+  .content {
+    min-height: 46rem;
+    padding: 25.5rem 1.4rem 0.9rem;
+  }
+
+  .profileText {
+    font-size: 0.96rem;
+  }
+
+  .supportingText {
+    font-size: 0.92rem;
+  }
 }

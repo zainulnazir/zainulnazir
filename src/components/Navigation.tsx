@@ -5,15 +5,26 @@ import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import styles from './Navigation.module.css';
 
+const navLinks = [
+  { id: 'about', label: 'About' },
+  { id: 'education', label: 'Education' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'publications', label: 'Publications' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'contact', label: 'Contact' },
+];
+
 export default function Navigation() {
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [isNavigating, setIsNavigating] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigationTimeoutRef = useRef<number | null>(null);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
-    if (isNavigating) return; // Ignore programmatic scroll
+    if (isNavigating || isMobileMenuOpen) return; // Ignore programmatic scroll and open mobile menu
 
     const previous = scrollY.getPrevious() ?? 0;
     if (latest > previous && latest > 100) {
@@ -30,6 +41,7 @@ export default function Navigation() {
 
     setIsNavigating(true);
     setHidden(false);
+    setIsMobileMenuOpen(false);
 
     navigationTimeoutRef.current = window.setTimeout(() => {
       setIsNavigating(false);
@@ -58,7 +70,17 @@ export default function Navigation() {
   }, []);
 
   useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 767) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
     return () => {
+      window.removeEventListener('resize', handleResize);
+
       if (navigationTimeoutRef.current) {
         window.clearTimeout(navigationTimeoutRef.current);
       }
@@ -77,14 +99,47 @@ export default function Navigation() {
       transition={{ duration: 0.35, ease: "easeInOut" }}
     >
       <Link href="#home" onClick={handleLinkClick} className={styles.logo}>ZN</Link>
-      <div className={styles.links}>
-        <Link href="#about" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'about' ? styles.active : ''}`}>About</Link>
-        <Link href="#education" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'education' ? styles.active : ''}`}>Education</Link>
-        <Link href="#experience" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'experience' ? styles.active : ''}`}>Experience</Link>
-        <Link href="#projects" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'projects' ? styles.active : ''}`}>Projects</Link>
-        <Link href="#publications" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'publications' ? styles.active : ''}`}>Publications</Link>
-        <Link href="#skills" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'skills' ? styles.active : ''}`}>Skills</Link>
-        <Link href="#contact" onClick={handleLinkClick} className={`${styles.link} ${activeSection === 'contact' ? styles.active : ''}`}>Contact</Link>
+      <div className={styles.desktopLinks}>
+        {navLinks.map((item) => (
+          <Link
+            key={item.id}
+            href={`#${item.id}`}
+            onClick={handleLinkClick}
+            className={`${styles.link} ${activeSection === item.id ? styles.active : ''}`}
+          >
+            {item.label}
+          </Link>
+        ))}
+      </div>
+
+      <div className={styles.mobileActions}>
+        <button
+          type="button"
+          className={`${styles.menuButton} ${isMobileMenuOpen ? styles.menuButtonOpen : ''}`}
+          aria-label="Toggle navigation menu"
+          aria-expanded={isMobileMenuOpen}
+          onClick={() => {
+            setHidden(false);
+            setIsMobileMenuOpen((value) => !value);
+          }}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
+
+      <div className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
+        {navLinks.map((item) => (
+          <Link
+            key={item.id}
+            href={`#${item.id}`}
+            onClick={handleLinkClick}
+            className={`${styles.mobileLink} ${activeSection === item.id ? styles.active : ''}`}
+          >
+            {item.label}
+          </Link>
+        ))}
       </div>
     </motion.nav>
   );

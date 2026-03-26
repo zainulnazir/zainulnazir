@@ -26,8 +26,8 @@
 
 ## PDF Handling
 
-- Cloudflare Pages rejected `public/Research_NIR_Vein_Finder.pdf` because it is larger than 25 MiB.
-- To make deployment work, the publication link was temporarily changed to an external URL in:
+- `public/Research_NIR_Vein_Finder.pdf` was removed from the codebase because Cloudflare Pages rejected it for being larger than 25 MiB.
+- The publication link now points to an external R2 URL in:
   - `src/components/Publications.tsx`
 - Current paper link:
   - `https://pub-0951765016044c0d8d09ae3469298c27.r2.dev/research/Research%20NIR%20Vein-Finder.pdf`
@@ -48,6 +48,45 @@
   - Publications wording
   - Skills wording
   - Contact section wording
+
+## Recent Design / UX Changes
+
+- About section was rebuilt into a single profile-style image panel using:
+  - `src/components/About.tsx`
+  - `src/components/About.module.css`
+- The profile portrait is served from:
+  - `public/images/zain-profile-cutout.png`
+- Education and Experience were redesigned into premium timelines on desktop and tablet using:
+  - `src/components/Education.tsx`
+  - `src/components/Education.module.css`
+  - `src/components/Experience.tsx`
+  - `src/components/Experience.module.css`
+- On phone sizes, Education and Experience now switch to a simpler stacked card layout instead of keeping the full timeline rail.
+- Mobile navigation now uses a centered hamburger menu rather than a compressed full-width horizontal nav, using:
+  - `src/components/Navigation.tsx`
+  - `src/components/Navigation.module.css`
+- About, Hero, Projects, Skills, Contact, and global spacing were adjusted for phones and tablets in:
+  - `src/components/Hero.module.css`
+  - `src/components/Projects.module.css`
+  - `src/components/Skills.module.css`
+  - `src/components/Contact.module.css`
+  - `src/app/globals.css`
+
+## Section Backup
+
+- Before redesigning About, Experience, and Publications on 2026-03-26, backups were saved in:
+  - `backups/2026-03-26-section-refresh/`
+- That folder contains the previous versions of:
+  - `About.tsx`
+  - `About.module.css`
+  - `Experience.tsx`
+  - `Experience.module.css`
+  - `Publications.tsx`
+  - `Publications.module.css`
+- Additional backup snapshots created during later iterations:
+  - `backups/2026-03-26-experience-timeline/`
+  - `backups/2026-03-26-academic-polish/`
+  - `backups/2026-03-26-mobile-nav-pass/`
 
 ## Cloudflare Notes
 

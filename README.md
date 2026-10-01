@@ -6,9 +6,9 @@
 
 I build software and experimental systems at the intersection of **science, computing, AI, and hardware**.
 
-<a href="https://linkedin.com/in/zainulnazir"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="30" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;
-<a href="mailto:zaynulnazir@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="30" alt="Email" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/entanglon"><img src="https://raw.githubusercontent.com/entanglon/.github/main/assets/entanglon-v2-mark-transparent.svg" width="30" alt="Entanglon" /></a>
+<a href="https://linkedin.com/in/zainulnazir"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:zaynulnazir@gmail.com"><img src="https://img.icons8.com/fluency/48/new-post.png" width="32" height="32" alt="Email" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/entanglon"><img src="https://raw.githubusercontent.com/entanglon/.github/main/assets/entanglon-v2-mark-transparent.svg" width="34" height="34" alt="Entanglon" /></a>
 
 </div>
 
@@ -22,25 +22,68 @@ My work currently moves between biomedical engineering, computer vision, native 
 
 ## Current Projects
 
-**[Flux](https://github.com/entanglon/flux)**  
-A native macOS media center built with SwiftUI and libmpv, focused on high-performance playback and deep platform integration.
-
-**[Cascade](https://github.com/entanglon/cascade)**  
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+<br>
+<strong><a href="https://github.com/entanglon/flux">Flux</a></strong><br>
+<sub>NATIVE macOS · MEDIA · SWIFT</sub><br><br>
+A native media center built with SwiftUI and libmpv, focused on high-performance playback and deep platform integration.
+<br><br>
+<sub>Entanglon · Active Development ↗</sub>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<br>
+<strong><a href="https://github.com/entanglon/cascade">Cascade</a></strong><br>
+<sub>STORAGE · PRIVACY · macOS</sub><br><br>
 A native storage system exploring encrypted cloud storage, streaming, and user-controlled infrastructure.
-
-**[NIR Vein Finder](https://github.com/zainulnazir/vein-finder)**  
+<br><br>
+<sub>Entanglon · In Development ↗</sub>
+<br><br>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<br>
+<strong><a href="https://github.com/zainulnazir/vein-finder">NIR Vein Finder</a></strong><br>
+<sub>BIOMEDICAL · COMPUTER VISION · HARDWARE</sub><br><br>
 A Raspberry Pi-based near-infrared imaging system for real-time superficial vein visualization using computer vision.
-
-**[MPVKit-Swift](https://github.com/zainulnazir/MPVKit-Swift)**  
+<br><br>
+<sub>Research Project · Open Source ↗</sub>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<br>
+<strong><a href="https://github.com/zainulnazir/MPVKit-Swift">MPVKit-Swift</a></strong><br>
+<sub>SWIFT · LIBMPV · NATIVE SYSTEMS</sub><br><br>
 A Swift Package Manager-ready integration layer for bringing libmpv and MoltenVK into native macOS applications.
-
-**[Hydra](https://github.com/zainulnazir/hydra)**  
+<br><br>
+<sub>Open Source · Systems ↗</sub>
+<br><br>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<br>
+<strong><a href="https://github.com/zainulnazir/hydra">Hydra</a></strong><br>
+<sub>STREAMING · INFRASTRUCTURE · PYTHON</sub><br><br>
 Streaming infrastructure built around concurrent fetching, caching, resilient extraction, and automation.
-
-**[CuraLytica](https://github.com/zainulnazir/CuraLytica)**  
+<br><br>
+<sub>Open Source · Infrastructure ↗</sub>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<br>
+<strong><a href="https://github.com/zainulnazir/CuraLytica">CuraLytica</a></strong><br>
+<sub>HEALTHCARE AI · MEDICAL IMAGING</sub><br><br>
 A healthcare AI project exploring medical-image analysis and diagnostic workflows.
-
----
+<br><br>
+<sub>Research · Healthcare Technology ↗</sub>
+<br><br>
+</td>
+</tr>
+</table>
 
 ## Areas I work in
 

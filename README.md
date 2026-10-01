@@ -7,8 +7,10 @@
 I build software and experimental systems at the intersection of **science, computing, AI, and hardware**.
 
 <a href="https://linkedin.com/in/zainulnazir"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:zaynulnazir@gmail.com"><img src="https://img.icons8.com/fluency/48/new-post.png" width="32" height="32" alt="Email" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/entanglon"><img src="https://raw.githubusercontent.com/entanglon/.github/main/assets/entanglon-v2-mark-transparent.svg" width="34" height="34" alt="Entanglon" /></a>
+<a href="mailto:zaynulnazir@gmail.com"><img src="https://raw.githubusercontent.com/tabler/tabler-icons/master/icons/mail.svg" width="32" height="32" alt="Email" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.instagram.com/zaynulnazir"><img src="https://cdn.simpleicons.org/instagram/E4405F" width="32" height="32" alt="Instagram" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://x.com/zainulnazir"><img src="https://cdn.simpleicons.org/x/FFFFFF" width="32" height="32" alt="X" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/entanglon"><img src="https://raw.githubusercontent.com/entanglon/.github/main/assets/entanglon-v2-mark-transparent.svg" width="32" height="32" alt="Entanglon" /></a>
 
 </div>
 

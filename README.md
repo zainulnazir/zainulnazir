@@ -1,51 +1,78 @@
-# Zain Ul Nazir
+<div align="center">
 
-> Biomedical Engineer · Software Developer · Systems Builder
+# Zayn
 
-I build across **biomedical engineering, software systems, AI, computer vision, and native applications**. Some of my software work is developed through **[Entanglon](https://github.com/entanglon)**.
+### Biomedical Engineer · Software Developer · Systems Builder
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-zainulnazir-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/zainulnazir)
-[![Email](https://img.shields.io/badge/Email-zaynulnazir%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:zaynulnazir@gmail.com)
-[![Entanglon](https://img.shields.io/badge/Entanglon-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/entanglon)
+I build software and experimental systems at the intersection of **science, computing, AI, and hardware**.
+
+[Website](https://zainulnazir.github.io) · [LinkedIn](https://linkedin.com/in/zainulnazir) · [Email](mailto:zaynulnazir@gmail.com) · [Entanglon](https://github.com/entanglon)
+
+</div>
+
+---
+
+## What I'm building
+
+I like taking a problem all the way from **idea → experiment → system → working software**.
+
+My work currently moves between biomedical engineering, computer vision, native applications, infrastructure, and privacy-focused systems.
 
 ## Current Projects
 
-- **[Flux](https://github.com/entanglon/flux)** — Native macOS media center built with SwiftUI and libmpv.
-- **[Cascade](https://github.com/entanglon/cascade)** — Personal cloud and media system exploring native clients, storage, streaming, and privacy.
-- **[NIR Vein Finder](https://github.com/zainulnazir/vein-finder)** — Raspberry Pi and NIR computer-vision system for real-time superficial vein visualization.
-- **[CuraLytica](https://github.com/zainulnazir/CuraLytica)** — Healthcare AI prototype exploring medical-image analysis and diagnostic workflows.
-- **[MPVKit-Swift](https://github.com/zainulnazir/MPVKit-Swift)** — SPM-ready macOS integration layer for libmpv and MoltenVK.
-- **[Hydra](https://github.com/zainulnazir/hydra)** — High-concurrency streaming infrastructure with caching, resilient fetching, and automation.
+**[Flux](https://github.com/entanglon/flux)**  
+A native macOS media center built with SwiftUI and libmpv, focused on high-performance playback and deep platform integration.
 
-## What I Work On
+**[Cascade](https://github.com/entanglon/cascade)**  
+A personal cloud and media system exploring native clients, storage, streaming, and user-controlled infrastructure.
 
-**Biomedical & Scientific**  
-Biomedical systems · Medical imaging · Computer vision · Hardware prototyping
+**[NIR Vein Finder](https://github.com/zainulnazir/vein-finder)**  
+A Raspberry Pi-based near-infrared imaging system for real-time superficial vein visualization using computer vision.
 
-**Software**  
-Native macOS · Swift/SwiftUI · Python · TypeScript · Backend systems
+**[MPVKit-Swift](https://github.com/zainulnazir/MPVKit-Swift)**  
+A Swift Package Manager-ready integration layer for bringing libmpv and MoltenVK into native macOS applications.
 
-**Systems**  
-Distributed systems · Storage · Streaming · Privacy · Automation · Linux
+**[Hydra](https://github.com/zainulnazir/hydra)**  
+Streaming infrastructure built around concurrent fetching, caching, resilient extraction, and automation.
 
-## Research & Interests
+**[CuraLytica](https://github.com/zainulnazir/CuraLytica)**  
+A healthcare AI project exploring medical-image analysis and diagnostic workflows.
 
-I enjoy working where disciplines overlap — especially when a problem can be approached from both the **physical and computational sides**.
+---
 
-Current interests include biomedical engineering, computer vision, native software, distributed systems, privacy-preserving infrastructure, and AI-assisted engineering.
+## Areas I work in
+
+| | |
+|---|---|
+| **Software** | Swift · SwiftUI · Python · TypeScript · C · Node.js |
+| **AI & Vision** | Computer Vision · Medical Imaging · Machine Learning · OpenCV |
+| **Systems** | macOS · Linux · Docker · Redis · Distributed Systems |
+| **Hardware** | Raspberry Pi · Biomedical Systems · NIR Imaging · Prototyping |
 
 ## Entanglon
 
-**[Entanglon](https://github.com/entanglon)** is an independent research and engineering lab I am building alongside my personal work.
+A significant part of my software work is developed through **[Entanglon](https://github.com/entanglon)** — an independent research and engineering lab exploring problems across software, hardware, science, and emerging technology.
 
 > **Architecting coherence across distributed systems.**
 
-[Website](https://entanglon.pages.dev/) · [GitHub](https://github.com/entanglon)
+[entanglon.pages.dev](https://entanglon.pages.dev/) · [github.com/entanglon](https://github.com/entanglon)
 
-## About
+## Research & interests
 
-Biomedical engineering graduate interested in building things end-to-end: from physical prototypes and imaging systems to native applications, backend services, and infrastructure.
+Biomedical engineering · Computer vision · Medical imaging · Native software · Distributed systems · Privacy · Storage · AI-assisted engineering · Hardware/software integration
 
-## Links
+I'm especially interested in problems where the **physical and computational worlds meet**.
 
-[LinkedIn](https://linkedin.com/in/zainulnazir) · [Email](mailto:zaynulnazir@gmail.com) · [Entanglon](https://github.com/entanglon)
+## A little about me
+
+I'm a biomedical engineering graduate who enjoys learning by building. I work across disciplines rather than staying inside a single technology stack, and I'm gradually moving deeper into systems engineering and computer science.
+
+Long term, I want to work on increasingly fundamental technology — from intelligent software and infrastructure to **robotics, operating systems, computer architecture, and other complex systems**.
+
+---
+
+<div align="center">
+
+**Build things worth understanding.**
+
+</div>

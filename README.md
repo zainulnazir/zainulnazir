@@ -2,10 +2,11 @@
 
 **Biomedical Engineer · Software Developer · Systems Builder**
 
-I build practical systems at the intersection of **healthcare, AI, computer vision, hardware, and software engineering**. My projects range from biomedical-device prototypes and medical imaging to macOS software, automation, and self-hosted infrastructure.
+I build practical systems at the intersection of **healthcare, AI, computer vision, hardware, and software engineering**. My work ranges from biomedical-device prototypes and medical imaging to native macOS software, infrastructure, automation, and products built through **Entanglon**.
 
 [![Email](https://img.shields.io/badge/Email-zaynulnazir%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:zaynulnazir@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-zainulnazir-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/zainulnazir)
+[![Entanglon](https://img.shields.io/badge/Entanglon-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/entanglon)
 
 ## Selected Work
 
@@ -25,11 +26,27 @@ A healthcare-focused AI prototype exploring **medical-image analysis and diagnos
 
 [Repository](https://github.com/zainulnazir/CuraLytica)
 
+### Flux — by Entanglon
+
+A native macOS media center built with SwiftUI and libmpv, combining hardware-accelerated playback, local stream selection, subtitles, profiles, and an extensible addon ecosystem.
+
+**Swift · SwiftUI · macOS · libmpv · MPVKit · Sparkle**
+
+[Repository](https://github.com/entanglon/flux) · [Entanglon](https://github.com/entanglon)
+
+### Cascade — by Entanglon
+
+A cross-platform personal cloud and media suite combining cloud storage, local cataloguing, byte-range media streaming, offline caching, integrated readers, and a biometric private vault.
+
+**Swift · TDLib · libmpv · SQLite · GRDB · Sparkle · Native Platforms**
+
+[Repository](https://github.com/entanglon/cascade) · [Entanglon](https://github.com/entanglon)
+
 ### MPVKit-Swift
 
 A Swift Package Manager-ready macOS wrapper and packaging pipeline for **libmpv and MoltenVK**, designed to simplify integrating native media playback into Swift applications.
 
-**Swift · macOS · SwiftUI · libmpv · MoltenVK · XCFramework · SPM**
+**Swift · macOS · libmpv · MoltenVK · XCFramework · SPM**
 
 [Repository](https://github.com/zainulnazir/MPVKit-Swift)
 
@@ -41,13 +58,11 @@ A highly concurrent HTTP stream aggregation system with caching, resilient fetch
 
 [Repository](https://github.com/zainulnazir/hydra)
 
-### TheLoomReport
+## Entanglon
 
-An automated AI publication pipeline that combines content generation, moderation, image processing, editorial review through GitHub pull requests, newsletters, and continuous deployment.
+I also build software under **[Entanglon](https://github.com/entanglon)**, an independent software organization focused on thoughtfully engineered applications and systems for personal computing, media, cloud infrastructure, and developer tooling.
 
-**Eleventy · Node.js · Gemini · GitHub Actions · SendGrid · CI/CD**
-
-[Repository](https://github.com/zainulnazir/theloomreport)
+Current products include **Flux** and **Cascade**, with additional projects evolving around the same focus on native interfaces, performance, privacy, and user-controlled software.
 
 ## Areas of Work
 
@@ -87,3 +102,4 @@ I am a biomedical engineering graduate with an interest in building things end-t
 
 - **Email:** [zaynulnazir@gmail.com](mailto:zaynulnazir@gmail.com)
 - **LinkedIn:** [linkedin.com/in/zainulnazir](https://linkedin.com/in/zainulnazir)
+- **Entanglon:** [github.com/entanglon](https://github.com/entanglon)

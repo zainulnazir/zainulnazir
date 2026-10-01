@@ -6,7 +6,7 @@
 
 I build software and experimental systems at the intersection of **science, computing, AI, and hardware**.
 
-[Website](https://zainulnazir.github.io) · [LinkedIn](https://linkedin.com/in/zainulnazir) · [Email](mailto:zaynulnazir@gmail.com) · [Entanglon](https://github.com/entanglon)
+[LinkedIn](https://linkedin.com/in/zainulnazir) · [Email](mailto:zaynulnazir@gmail.com) · [Entanglon](https://github.com/entanglon)
 
 </div>
 

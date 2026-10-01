@@ -1,12 +1,14 @@
 <div align="center">
 
-# Zayn
+# Hi, I'm Zayn 👋
 
 ### Biomedical Engineer · Software Developer · Systems Builder
 
 I build software and experimental systems at the intersection of **science, computing, AI, and hardware**.
 
-[LinkedIn](https://linkedin.com/in/zainulnazir) · [Email](mailto:zaynulnazir@gmail.com) · [Entanglon](https://github.com/entanglon)
+<a href="https://linkedin.com/in/zainulnazir"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="30" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:zaynulnazir@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="30" alt="Email" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/entanglon"><img src="https://raw.githubusercontent.com/entanglon/.github/main/assets/entanglon-v2-mark-transparent.svg" width="30" alt="Entanglon" /></a>
 
 </div>
 
@@ -24,7 +26,7 @@ My work currently moves between biomedical engineering, computer vision, native 
 A native macOS media center built with SwiftUI and libmpv, focused on high-performance playback and deep platform integration.
 
 **[Cascade](https://github.com/entanglon/cascade)**  
-A personal cloud and media system exploring native clients, storage, streaming, and user-controlled infrastructure.
+A native storage system exploring encrypted cloud storage, streaming, and user-controlled infrastructure.
 
 **[NIR Vein Finder](https://github.com/zainulnazir/vein-finder)**  
 A Raspberry Pi-based near-infrared imaging system for real-time superficial vein visualization using computer vision.
@@ -42,12 +44,55 @@ A healthcare AI project exploring medical-image analysis and diagnostic workflow
 
 ## Areas I work in
 
-| | |
-|---|---|
-| **Software** | Swift · SwiftUI · Python · TypeScript · C · Node.js |
-| **AI & Vision** | Computer Vision · Medical Imaging · Machine Learning · OpenCV |
-| **Systems** | macOS · Linux · Docker · Redis · Distributed Systems |
-| **Hardware** | Raspberry Pi · Biomedical Systems · NIR Imaging · Prototyping |
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<br>
+<strong>Software & Systems</strong><br><br>
+Swift · SwiftUI · Python · TypeScript · C · Node.js<br>
+macOS · Linux · Docker · Distributed Systems
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<strong>AI & Computer Vision</strong><br><br>
+Machine Learning · Medical Imaging · OpenCV<br>
+Image Processing · AI-assisted Engineering
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<strong>Biomedical Engineering</strong><br><br>
+Biomedical Imaging · NIR Systems · Healthcare Technology<br>
+Experimental Systems · Signal & Image Analysis
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<strong>Hardware & Research</strong><br><br>
+Raspberry Pi · Sensors · Embedded Prototyping<br>
+Hardware/Software Integration · Independent Research
+<br><br>
+</td>
+</tr>
+</table>
+
+## Languages I've worked with
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+
+</div>
 
 ## Entanglon
 
@@ -55,7 +100,7 @@ A significant part of my software work is developed through **[Entanglon](https:
 
 > **Architecting coherence across distributed systems.**
 
-[entanglon.pages.dev](https://entanglon.pages.dev/) · [github.com/entanglon](https://github.com/entanglon)
+[Website](https://entanglon.pages.dev/) · [GitHub](https://github.com/entanglon)
 
 ## Research & interests
 
